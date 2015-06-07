@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on </title>
+    <link>http://localhost:1313/tags/tech/</link>
+    <description>Recent content in Tech on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 07 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What is docker and why is so popular?</title>
+      <link>http://localhost:1313/tech/what-is-docker-and-why-is-popular/</link>
+      <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tech/what-is-docker-and-why-is-popular/</guid>
+      <description>
+
+&lt;h2 id=&#34;docker-allows-two-processes-run-on-the-same-computer-with-their-own-virtual-operating-system:7c560270f5b996703bc9987fa86ab58f&#34;&gt;Docker allows two processes run on the same computer with their own virtual operating system&lt;/h2&gt;
+
+&lt;p&gt;Docker provides tool chain and libs isolation for processes running in the same underlining OS. Notice that every process will also have its own RAM, disk and kernel.&lt;/p&gt;
+
+&lt;h2 id=&#34;consequence-docker-is-cheaper-than-virtualization-and-applicable-in-most-cases:7c560270f5b996703bc9987fa86ab58f&#34;&gt;Consequence: Docker is cheaper than virtualization and applicable in most cases&lt;/h2&gt;
+
+&lt;p&gt;Virtualization replicates the guest OS and so waste resources. However, virtualization allows running different operating systems on the same hardware.&lt;/p&gt;
+
+&lt;h2 id=&#34;docker-is-open-source:7c560270f5b996703bc9987fa86ab58f&#34;&gt;Docker is open source&lt;/h2&gt;
+
+&lt;p&gt;No upfront cost.&lt;/p&gt;
+
+&lt;h2 id=&#34;cloud-is-everywhere:7c560270f5b996703bc9987fa86ab58f&#34;&gt;Cloud is everywhere&lt;/h2&gt;
+
+&lt;p&gt;It will reduce the cost of software &amp;ldquo;cloudification&amp;rdquo;, which is a major tendency.&lt;/p&gt;
+
+&lt;h2 id=&#34;docker-vs-virtualization:7c560270f5b996703bc9987fa86ab58f&#34;&gt;Docker vs Virtualization&lt;/h2&gt;
+
+&lt;p&gt;&lt;style&gt; 
+
+div.inline {
+	display: inline;
+	padding: 1em;
+}
+div.inline-block {
+	display: inline-block;
+	text-align:center;
+	padding: 0.5em;
+}
+.inline-block div {
+	border-radius: 5px;
+	width: 10em;
+	padding: 0.3em;
+	display:block;
+}
+.inline-block div:nth-child(odd) {
+	color: #E8E8E8;
+    background: #0081c0;
+}
+
+.inline-block div:nth-child(even) {
+    background: #000000;
+	color: #C0C0C0 
+} 
+.block{
+	display:block;
+	width: 100%;
+	text-align:center;
+	border-radius: 1em;
+}
+.block div {
+	padding: 0.2em;
+}
+.red {
+	background: #CC3333; 
+	color:#E8E8E8;
+}
+.gold {
+	background: #FF9900;
+	color:#505050;
+}
+.darkred {
+	background: #660000;
+	color:#E8E8E8;
+}
+.border {
+	border-radius: 5px;
+	width: 25em;
+	border: 1px solid darkgray;
+	text-align:center;
+	display: inline-block;
+	margin-left: 2em;
+}
+.border h3 {
+	color: #404040;
+}
+
+&lt;/style&gt;
+	
+&lt;div class=&#34;border&#34;&gt;
+	&lt;h3&gt;Virtual Machine approach&lt;/h3&gt;
+	&lt;div class=&#34;inline&#34;&gt;
+		&lt;div class=&#34;inline-block&#34;&gt;
+			&lt;div&gt;Application A&lt;/div&gt;
+			&lt;div&gt;Guest OS&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&#34;inline-block&#34;&gt;
+			&lt;div&gt;Application B&lt;/div&gt;
+			&lt;div&gt;Guest OS&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&#34;block&#34;&gt;
+		&lt;div class=&#34;darkred&#34;&gt;Hypervisor&lt;/div&gt;	
+		&lt;div class=&#34;red&#34;&gt;Host OS&lt;/div&gt;
+		&lt;div class=&#34;gold&#34;&gt;Hardware&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;border&#34;&gt;
+	&lt;h3&gt;Docker approach&lt;/h3&gt;
+	&lt;div class=&#34;inline&#34;&gt;
+		&lt;div class=&#34;inline-block&#34;&gt;
+			&lt;div&gt;Application A&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&#34;inline-block&#34;&gt;
+			&lt;div&gt;Application B&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&#34;block&#34;&gt;
+		&lt;div class=&#34;darkred&#34;&gt;Docker&lt;/div&gt;	
+		&lt;div class=&#34;red&#34;&gt;Host OS&lt;/div&gt;
+		&lt;div class=&#34;gold&#34;&gt;Hardware&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
