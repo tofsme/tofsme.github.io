@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming Language on </title>
+    <link>http://tofs.me/categories/programming-language/</link>
+    <description>Recent content in Programming Language on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 08 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://tofs.me/categories/programming-language/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What are the differences between Service, Factory and Provider in Angular JS?</title>
+      <link>http://tofs.me/tech/angular-factory-vs-service-vs-provider/</link>
+      <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://tofs.me/tech/angular-factory-vs-service-vs-provider/</guid>
+      <description>
+
+&lt;h2 id=&#34;factory:87649f85a912b186731bf188b3af2166&#34;&gt;Factory&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;* You provide a function;
+* When used Angular will run the function and **return your function returned value**;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;service:87649f85a912b186731bf188b3af2166&#34;&gt;Service&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;* You provide a function; 
+* When used Angular will **return new yourFunction()** 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;provider:87649f85a912b186731bf188b3af2166&#34;&gt;Provider&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;* You provide a function;
+* Same as service, but you could access it in module config(); 
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
