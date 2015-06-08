@@ -32,21 +32,23 @@
 
 &lt;h2 id=&#34;factory:87649f85a912b186731bf188b3af2166&#34;&gt;Factory&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;* You provide a function;
-* When used Angular will run the function and **return your function returned value**;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;You provide a function;&lt;/li&gt;
 
-&lt;h2 id=&#34;service:87649f85a912b186731bf188b3af2166&#34;&gt;Service&lt;/h2&gt;
+&lt;li&gt;&lt;p&gt;When used Angular will run the function and &lt;strong&gt;return your function returned value&lt;/strong&gt;;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;* You provide a function; 
-* When used Angular will **return new yourFunction()** 
-&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;service:87649f85a912b186731bf188b3af2166&#34;&gt;Service&lt;/h2&gt;&lt;/li&gt;
 
-&lt;h2 id=&#34;provider:87649f85a912b186731bf188b3af2166&#34;&gt;Provider&lt;/h2&gt;
+&lt;li&gt;&lt;p&gt;You provide a function;&lt;/p&gt;&lt;/li&gt;
 
-&lt;pre&gt;&lt;code&gt;* You provide a function;
-* Same as service, but you could access it in module config(); 
-&lt;/code&gt;&lt;/pre&gt;
+&lt;li&gt;&lt;p&gt;When used Angular will &lt;strong&gt;return new yourFunction()&lt;/strong&gt;;&lt;/p&gt;
+
+&lt;h2 id=&#34;provider:87649f85a912b186731bf188b3af2166&#34;&gt;Provider&lt;/h2&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You provide a function;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Same as service, but you could &lt;strong&gt;access it in module config()&lt;/strong&gt;;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
