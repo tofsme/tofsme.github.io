@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Why on </title>
-    <link>http://tofs.me/tags/why/</link>
+    <link>http://localhost:1313/tags/why/</link>
     <description>Recent content in Why on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 08 Jun 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://tofs.me/tags/why/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/why/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Why not declare global functions and variables in javascript?</title>
-      <link>http://tofs.me/tech/why-not-declare-global-functions-in-javascript/</link>
+      <link>http://localhost:1313/tech/why-not-declare-global-functions-in-javascript/</link>
       <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://tofs.me/tech/why-not-declare-global-functions-in-javascript/</guid>
+      <guid>http://localhost:1313/tech/why-not-declare-global-functions-in-javascript/</guid>
       <description>
 
 &lt;h2 id=&#34;you-declare-a-function-called-myfunction:e2fa5b114e947baf909e8cf468b7b092&#34;&gt;You declare a function called MyFunction;&lt;/h2&gt;
@@ -38,10 +38,10 @@
     
     <item>
       <title>What is docker and why is so popular?</title>
-      <link>http://tofs.me/tech/what-is-docker-and-why-is-popular/</link>
+      <link>http://localhost:1313/tech/what-is-docker-and-why-is-popular/</link>
       <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://tofs.me/tech/what-is-docker-and-why-is-popular/</guid>
+      <guid>http://localhost:1313/tech/what-is-docker-and-why-is-popular/</guid>
       <description>
 
 &lt;h2 id=&#34;docker-allows-two-processes-run-on-the-same-computer-with-their-own-virtual-operating-system:7c560270f5b996703bc9987fa86ab58f&#34;&gt;Docker allows two processes run on the same computer with their own virtual operating system&lt;/h2&gt;

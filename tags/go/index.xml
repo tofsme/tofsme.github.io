@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on </title>
-    <link>http://tofs.me/tags/go/</link>
+    <link>http://localhost:1313/tags/go/</link>
     <description>Recent content in Go on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 08 Jun 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://tofs.me/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/go/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to run a specific test case in Go?</title>
-      <link>http://tofs.me/tech/how-to-run-a-specific-test-case-in-go-golang/</link>
+      <link>http://localhost:1313/tech/how-to-run-a-specific-test-case-in-go-golang/</link>
       <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://tofs.me/tech/how-to-run-a-specific-test-case-in-go-golang/</guid>
+      <guid>http://localhost:1313/tech/how-to-run-a-specific-test-case-in-go-golang/</guid>
       <description>
 
 &lt;h2 id=&#34;go-test-run-matching-testcase-s-regex:c735798007179cc9f751c5e64d89f751&#34;&gt;go test -run &amp;ldquo;Matching TestCase(s) Regex&amp;rdquo;&lt;/h2&gt;
