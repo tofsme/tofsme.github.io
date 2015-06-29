@@ -49,6 +49,8 @@
 <ul>
 <li>You provide a function;</li>
 <li>When used Angular will run the function and <strong>return your function returned value</strong>;</li>
+<li>You usually implement the factory to create an object and return it so every factory injection will give you a different object;</li>
+<li>The name reflects exactly what happens: It&rsquo;s a factory of new instances;</li>
 </ul>
 
 <h2 id="service:87649f85a912b186731bf188b3af2166">Service</h2>
@@ -56,6 +58,8 @@
 <ul>
 <li>You provide a function;</li>
 <li>When used Angular will <strong>return new yourFunction()</strong>;</li>
+<li>Angular will cache only one instance of your object;</li>
+<li>The name reflects exactly what will happen: It&rsquo;s a &ldquo;global&rdquo; service that will be shared by any controller;</li>
 </ul>
 
 <h2 id="provider:87649f85a912b186731bf188b3af2166">Provider</h2>

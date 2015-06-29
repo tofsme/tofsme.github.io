@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Global on </title>
-    <link>http://localhost:1313/tags/global/</link>
+    <link>http://tofs.me/tags/global/</link>
     <description>Recent content in Global on </description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 08 Jun 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/global/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://tofs.me/tags/global/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Why not declare global functions and variables in javascript?</title>
-      <link>http://localhost:1313/tech/why-not-declare-global-functions-in-javascript/</link>
+      <link>http://tofs.me/tech/why-not-declare-global-functions-in-javascript/</link>
       <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tech/why-not-declare-global-functions-in-javascript/</guid>
+      <guid>http://tofs.me/tech/why-not-declare-global-functions-in-javascript/</guid>
       <description>
 
 &lt;h2 id=&#34;you-declare-a-function-called-myfunction:e2fa5b114e947baf909e8cf468b7b092&#34;&gt;You declare a function called MyFunction;&lt;/h2&gt;

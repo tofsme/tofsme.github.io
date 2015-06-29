@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     
     <title></title>
-    <link rel="canonical" href="http://localhost:1313/">
+    <link rel="canonical" href="http://tofs.me/">
     	<style>
 		html,body,form,div,p{
 			margin:0;
@@ -62,12 +62,12 @@ You know the drill, one silly sunday afternoon your wife reach out and ask you t
         
 <article class="post wrapper">
 <header>
-<h2><a href='/tech/angular-factory-vs-service-vs-provider/'> What are the differences between Service, Factory and Provider in Angular JS?</a> </h2>
+<h2><a href='/tech/how-to-run-a-specific-test-case-in-go-golang/'> How to run a specific test case in Go?</a> </h2>
 <div class="post-meta">Mon, Jun 8, 2015 - 100 Words </div>
 </header>
-Factory You provide a function; When used Angular will run the function and return your function returned value; Service You provide a function; When used Angular will return new yourFunction(); Provider You provide a function; Same as service, but you could access it in module config();
+go test -run &ldquo;Matching TestCase(s) Regex&rdquo; You can alternatively provide the list of files right after the keyword &ldquo;test&rdquo;, but there are some boring tradeoffs and mixups to worry.
 <footer>
-	<a href='/tech/angular-factory-vs-service-vs-provider/'><nobr>Read more →</nobr></a>
+	<a href='/tech/how-to-run-a-specific-test-case-in-go-golang/'><nobr>Read more →</nobr></a>
 </footer>
 </article>
 
@@ -78,12 +78,12 @@ Factory You provide a function; When used Angular will run the function and retu
         
 <article class="post wrapper">
 <header>
-<h2><a href='/tech/how-to-run-a-specific-test-case-in-go-golang/'> How to run a specific test case in Go?</a> </h2>
-<div class="post-meta">Mon, Jun 8, 2015 - 100 Words </div>
+<h2><a href='/tech/angular-factory-vs-service-vs-provider/'> What are the differences between Service, Factory and Provider in Angular JS?</a> </h2>
+<div class="post-meta">Mon, Jun 8, 2015 - 200 Words </div>
 </header>
-go test -run &ldquo;Matching TestCase(s) Regex&rdquo; You can alternatively provide the list of files right after the keyword &ldquo;test&rdquo;, but there are some boring tradeoffs and mixups to worry.
+Factory You provide a function; When used Angular will run the function and return your function returned value; You usually implement the factory to create an object and return it so every factory injection will give you a different object; The name reflects exactly what happens: It&rsquo;s a factory of new instances; Service You provide a function; When used Angular will return new yourFunction(); Angular will cache only one instance
 <footer>
-	<a href='/tech/how-to-run-a-specific-test-case-in-go-golang/'><nobr>Read more →</nobr></a>
+	<a href='/tech/angular-factory-vs-service-vs-provider/'><nobr>Read more →</nobr></a>
 </footer>
 </article>
 
