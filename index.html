@@ -46,6 +46,22 @@
         
 <article class="post wrapper">
 <header>
+<h2><a href='/tech/how-to-merge-git-repositories/'> How to merge a git repository as a subdirectory and preserve history</a> </h2>
+<div class="post-meta">Sun, Jul 19, 2015 - 100 Words </div>
+</header>
+Clean and fast why to merge and preserve history Purpose merge project-y as a subfolder in project-x cd project-y folder mkdir project-y (yes, we are deliberatingly creating a subfolder as the same name of the project) mv * project-y (except git repository and configuration itself) git add project-y git commit -m &ldquo;preparing to merge: creating subfolder&rdquo; cd project-x folder git remote -f add project-y path-to/project-y git merge project-y/master
+<footer>
+	<a href='/tech/how-to-merge-git-repositories/'><nobr>Read more →</nobr></a>
+</footer>
+</article>
+
+
+
+
+    
+        
+<article class="post wrapper">
+<header>
 <h2><a href='/movies/inkheart-one-of-the-worst-movies-ever/'> Inkheart, one of the worst movies ever made</a> </h2>
 <div class="post-meta">Sun, Jun 14, 2015 - 300 Words </div>
 </header>
@@ -62,12 +78,12 @@ You know the drill, one silly sunday afternoon your wife reach out and ask you t
         
 <article class="post wrapper">
 <header>
-<h2><a href='/tech/how-to-run-a-specific-test-case-in-go-golang/'> How to run a specific test case in Go?</a> </h2>
-<div class="post-meta">Mon, Jun 8, 2015 - 100 Words </div>
+<h2><a href='/tech/angular-factory-vs-service-vs-provider/'> What are the differences between Service, Factory and Provider in Angular JS?</a> </h2>
+<div class="post-meta">Mon, Jun 8, 2015 - 200 Words </div>
 </header>
-go test -run &ldquo;Matching TestCase(s) Regex&rdquo; You can alternatively provide the list of files right after the keyword &ldquo;test&rdquo;, but there are some boring tradeoffs and mixups to worry.
+Factory You provide a function; When used Angular will run the function and return your function returned value; You usually implement the factory to create an object and return it so every factory injection will give you a different object; The name reflects exactly what happens: It&rsquo;s a factory of new instances; Service You provide a function; When used Angular will return new yourFunction(); Angular will cache only one instance
 <footer>
-	<a href='/tech/how-to-run-a-specific-test-case-in-go-golang/'><nobr>Read more →</nobr></a>
+	<a href='/tech/angular-factory-vs-service-vs-provider/'><nobr>Read more →</nobr></a>
 </footer>
 </article>
 
@@ -78,12 +94,12 @@ go test -run &ldquo;Matching TestCase(s) Regex&rdquo; You can alternatively prov
         
 <article class="post wrapper">
 <header>
-<h2><a href='/tech/angular-factory-vs-service-vs-provider/'> What are the differences between Service, Factory and Provider in Angular JS?</a> </h2>
-<div class="post-meta">Mon, Jun 8, 2015 - 200 Words </div>
+<h2><a href='/tech/how-to-run-a-specific-test-case-in-go-golang/'> How to run a specific test case in Go?</a> </h2>
+<div class="post-meta">Mon, Jun 8, 2015 - 100 Words </div>
 </header>
-Factory You provide a function; When used Angular will run the function and return your function returned value; You usually implement the factory to create an object and return it so every factory injection will give you a different object; The name reflects exactly what happens: It&rsquo;s a factory of new instances; Service You provide a function; When used Angular will return new yourFunction(); Angular will cache only one instance
+go test -run &ldquo;Matching TestCase(s) Regex&rdquo; You can alternatively provide the list of files right after the keyword &ldquo;test&rdquo;, but there are some boring tradeoffs and mixups to worry.
 <footer>
-	<a href='/tech/angular-factory-vs-service-vs-provider/'><nobr>Read more →</nobr></a>
+	<a href='/tech/how-to-run-a-specific-test-case-in-go-golang/'><nobr>Read more →</nobr></a>
 </footer>
 </article>
 

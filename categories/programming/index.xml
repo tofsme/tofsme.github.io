@@ -5,8 +5,32 @@
     <link>http://tofs.me/categories/programming/</link>
     <description>Recent content in Programming on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 08 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tofs.me/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to merge a git repository as a subdirectory and preserve history</title>
+      <link>http://tofs.me/tech/how-to-merge-git-repositories/</link>
+      <pubDate>Sun, 19 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://tofs.me/tech/how-to-merge-git-repositories/</guid>
+      <description>
+
+&lt;h2 id=&#34;clean-and-fast-why-to-merge-and-preserve-history:51f655526f9cbc4e41a39e61908e4aab&#34;&gt;Clean and fast why to merge and preserve history&lt;/h2&gt;
+
+&lt;p&gt;Purpose merge project-y as a subfolder in project-x&lt;/p&gt;
+
+&lt;p&gt;cd project-y folder
+mkdir project-y (yes, we are deliberatingly creating a subfolder as the same name of the project)
+mv * project-y (except git repository and configuration itself)
+git add project-y
+git commit -m &amp;ldquo;preparing to merge: creating subfolder&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;cd project-x folder
+git remote -f add project-y path-to/project-y
+git merge project-y/master&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How to run a specific test case in Go?</title>

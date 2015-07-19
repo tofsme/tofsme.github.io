@@ -5,8 +5,32 @@
     <link>http://tofs.me/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 14 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tofs.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to merge a git repository as a subdirectory and preserve history</title>
+      <link>http://tofs.me/tech/how-to-merge-git-repositories/</link>
+      <pubDate>Sun, 19 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://tofs.me/tech/how-to-merge-git-repositories/</guid>
+      <description>
+
+&lt;h2 id=&#34;clean-and-fast-why-to-merge-and-preserve-history:51f655526f9cbc4e41a39e61908e4aab&#34;&gt;Clean and fast why to merge and preserve history&lt;/h2&gt;
+
+&lt;p&gt;Purpose merge project-y as a subfolder in project-x&lt;/p&gt;
+
+&lt;p&gt;cd project-y folder
+mkdir project-y (yes, we are deliberatingly creating a subfolder as the same name of the project)
+mv * project-y (except git repository and configuration itself)
+git add project-y
+git commit -m &amp;ldquo;preparing to merge: creating subfolder&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;cd project-x folder
+git remote -f add project-y path-to/project-y
+git merge project-y/master&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Inkheart, one of the worst movies ever made</title>
@@ -19,20 +43,6 @@
 &lt;p&gt;That stream of possibilities unfortunately led to one of the worst movies ever acted, directed and scripted. Don&amp;rsquo;t waste your time. There is almost no script. I&amp;rsquo;d like to say the character have NO deep at all, but it&amp;rsquo;s even worse than that: The characters and their actions are most of time unrealistic, ilogical and disconnected of the story. The acting is also awful, full of repeated cliches, stereotypes and totaly unconvincing.&lt;/p&gt;
 
 &lt;p&gt;What surprises me is that someone at some company authorized investing 60 million bucks to film this. It&amp;rsquo;s unbelievable. I really don&amp;rsquo;t know what they were thinking. Don&amp;rsquo;t you believe me? Please grab a copy, but only if you have pleasure watching crap movies and making satiric comments about them when they&amp;rsquo;re running.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How to run a specific test case in Go?</title>
-      <link>http://tofs.me/tech/how-to-run-a-specific-test-case-in-go-golang/</link>
-      <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://tofs.me/tech/how-to-run-a-specific-test-case-in-go-golang/</guid>
-      <description>
-
-&lt;h2 id=&#34;go-test-run-matching-testcase-s-regex:c735798007179cc9f751c5e64d89f751&#34;&gt;go test -run &amp;ldquo;Matching TestCase(s) Regex&amp;rdquo;&lt;/h2&gt;
-
-&lt;p&gt;You can alternatively provide the list of files right after the keyword &amp;ldquo;test&amp;rdquo;, but there are some boring tradeoffs and mixups to worry.&lt;/p&gt;
 </description>
     </item>
     
@@ -68,6 +78,20 @@
 &lt;li&gt;You provide a function;&lt;/li&gt;
 &lt;li&gt;Same as service, but you could &lt;strong&gt;access it in module config()&lt;/strong&gt;;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to run a specific test case in Go?</title>
+      <link>http://tofs.me/tech/how-to-run-a-specific-test-case-in-go-golang/</link>
+      <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://tofs.me/tech/how-to-run-a-specific-test-case-in-go-golang/</guid>
+      <description>
+
+&lt;h2 id=&#34;go-test-run-matching-testcase-s-regex:c735798007179cc9f751c5e64d89f751&#34;&gt;go test -run &amp;ldquo;Matching TestCase(s) Regex&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;You can alternatively provide the list of files right after the keyword &amp;ldquo;test&amp;rdquo;, but there are some boring tradeoffs and mixups to worry.&lt;/p&gt;
 </description>
     </item>
     
